@@ -3,7 +3,7 @@
   <name>robosys_mypkg</name>
   <version>0.0.0</version>
   <description>The robosys_mypkg package</description>
-  <maintainer email="left.left2222@gamil.com">zjzj-zz</maintainer>
+  <maintainer email="left.left2222@gamil.com">Hikaru Jitsukawa</maintainer>
   <license>BSD</license>
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roscpp</build_depend>
