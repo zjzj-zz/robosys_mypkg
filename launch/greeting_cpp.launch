@@ -1,0 +1,4 @@
+<launch>
+  <node name="greeting_talker" pkg="robosys_mypkg" type="greeting_talker" />
+  <node name="greeting_listener" pkg="robosys_mypkg" type="greeting_listener" output="screen" />
+</launch>
