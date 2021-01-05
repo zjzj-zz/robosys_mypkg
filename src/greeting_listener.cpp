@@ -2,7 +2,7 @@
 #include "std_msgs/String.h"
 
 void chatterCallback(const std_msgs::String& msg){
-	ROS_INFO("Received [%s]", msg.data.c_str());
+	ROS_INFO("listener_cpp received [%s]", msg.data.c_str());
 }
 
 int main(int argc, char **argv){
