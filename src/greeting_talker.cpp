@@ -1,3 +1,7 @@
+/*
+ * Copyright(c)2021 Hikaru Jitsukawa. All rights reserved.
+ */
+
 #include "ros/ros.h"
 #include "std_msgs/String.h"
 
