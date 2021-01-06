@@ -31,7 +31,7 @@
 
 ## パッケージ概要
 
-c++とpythonのコードのトピック間通信を行います。　
+c++とpythonのコードのトピック間通信を行います。 
 簡単な四則演算を行います。 
 
 ### [cpp_greeting.launch](https://github.com/zjzj-zz/robosys_mypkg/blob/main/launch/cpp_greeting.launch)
