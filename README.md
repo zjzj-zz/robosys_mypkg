@@ -31,7 +31,7 @@
 
 ## パッケージ概要
 
-c++とpythonのコードのトピック間通信を行います。
+c++とpythonのコードのトピック間通信を行います。　
 簡単な四則演算を行います。 
 
 ### [cpp_greeting.launch](https://github.com/zjzj-zz/robosys_mypkg/blob/main/launch/cpp_greeting.launch)
@@ -95,7 +95,7 @@ c++とpythonのコードのトピック間通信を行います。
 
 [Hikaru Jitsukawa](https://github.com/zjzj-zz)
 
-ROSセットアップに関して
+ROSセットアップに関して：
 [Ryuichi Ueda](https://github.com/ryuichiueda)
 
 ## ライセンス
