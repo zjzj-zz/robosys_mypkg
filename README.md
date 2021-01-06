@@ -64,11 +64,29 @@ c++とpythonのコードのトピック間通信を行います。
   roslaunch robosys_mypkg py_greeting.launch
   ```
 
-  個別で実行を確認する場合には以下のコマンドを別々の端末で実行します。
+- 個別で実行を確認する場合には以下のコマンドを別々の端末で実行します。
 
   ```bash
   roscore
   rosrun robosys_mypkg greeting_talker
   rosrun robosys_mypkg greeting_listener_py.py
   ```
+### [calculator.launch](https://github.com/zjzj-zz/robosys_mypkg/blob/main/launch/calculator.launch)
 
+- 簡単な四則演算を行うlaunchファイルです。
+- 1 + 1 のように＜数値＞spece＜演算子＞spece＜数値＞の入力から答えを出力します。
+
+- 次のコマンドで起動します。
+
+  ```bash
+  roslaunch robosys_mypkg calculator.launch
+  ```
+
+- 個別で実行を確認する場合には以下のコマンドを別々の端末で実行します。
+
+  ```bash
+  roscore
+  rosrun robosys_mypkg input.py
+  rosrun robosys_mypkg calculate.py
+  rosrun robosys_mypkg output.py
+  ```
