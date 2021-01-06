@@ -36,21 +36,21 @@ c++とpythonのコードのトピック間通信を行います。
 
 ### [cpp_greeting.launch](https://github.com/zjzj-zz/robosys_mypkg/blob/main/launch/cpp_greeting.launch)
 
-[greeting_talker.cpp](https://github.com/zjzj-zz/robosys_mypkg/blob/main/src/greeting_talker.cpp)のノードから送られた挨拶を[greeting_listener.cpp](https://github.com/zjzj-zz/robosys_mypkg/blob/main/src/greeting_listener.cpp)で受信して表示するlaunchファイルです。 
-c++同士の通信を行います。
+  [greeting_talker.cpp](https://github.com/zjzj-zz/robosys_mypkg/blob/main/src/greeting_talker.cpp)のノードから送られた挨拶を[greeting_listener.cpp](https://github.com/zjzj-zz/robosys_mypkg/blob/main/src/greeting_listener.cpp)で受信して表示するlaunchファイルです。 
+  c++同士の通信を行います。
 
-次のコマンドで起動します。
+  次のコマンドで起動します。
 
-```bash
-roslaunch robosys_mypkg cpp_greeting.git
-```
+  ```bash
+  roslaunch robosys_mypkg cpp_greeting.git
+  ```
 
-個別で実行を確認する場合には以下のコマンドを別々の端末で実行します。
+  個別で実行を確認する場合には以下のコマンドを別々の端末で実行します。
 
-```bash
-roscore 
-rosrun robosys_mypkg greeting_talker 
-rosrun robosys_mypkg greeting_listener
-```
+  ```bash
+  roscore 
+  rosrun robosys_mypkg greeting_talker 
+  rosrun robosys_mypkg greeting_listener
+  ```
 
 
