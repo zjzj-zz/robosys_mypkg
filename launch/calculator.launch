@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="robosys_mypkg" name="input_data" type="input.py" output="screen" />
+  <node pkg="robosys_mypkg" name="output_answer" type="output.py" output="screen" />
+  <node pkg="robosys_mypkg" name="calculate" type="calculate.py" />
+</launch>
