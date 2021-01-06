@@ -29,3 +29,17 @@
   cd ~/catkin_ws && catkin_make
   ```
 
+## パッケージ概要
+
+c++とpythonのコードのトピック間通信を行います。
+簡単な四則演算を行います。
+
+### [cpp_greeting.launch](https://github.com/zjzj-zz/robosys_mypkg/blob/main/launch/cpp_greeting.launch)
+
+[greeting_talker.cpp](https://github.com/zjzj-zz/robosys_mypkg/blob/main/src/greeting_talker.cpp)のノードから送られた挨拶を[greeting_listener.cpp](https://github.com/zjzj-zz/robosys_mypkg/blob/main/src/greeting_listener.cpp)で受信して表示するlaunchファイルです。
+
+次のコマンドで起動します。
+
+```bash
+roslaunch robosys_mypkg cpp_greeting.git
+```
