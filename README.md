@@ -90,3 +90,14 @@ c++とpythonのコードのトピック間通信を行います。
   rosrun robosys_mypkg calculate.py
   rosrun robosys_mypkg output.py
   ```
+
+## 著者
+
+[Hikaru Jitsukawa](https://github.com/zjzj-zz)
+
+ROSセットアップに関して
+[Ryuichi Ueda](https://github.com/ryuichiueda)
+
+## ライセンス
+
+[BSD 3-Clause "New" or "Revised" License](https://github.com/zjzj-zz/robosys_mypkg/blob/main/LICENSE)
