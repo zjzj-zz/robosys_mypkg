@@ -97,6 +97,8 @@ c++とpythonのコードのトピック間通信を行います。
 
 ## デモ動画
 
+- 実際に実行したときの動画はこちらです。
+
 [![](https://img.youtube.com/vi/qLvJ595EBtI/0.jpg)](https://www.youtube.com/watch?v=qLvJ595EBtI)
 
 ## 著者
