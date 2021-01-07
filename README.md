@@ -91,6 +91,8 @@ c++とpythonのコードのトピック間通信を行います。
   rosrun robosys_mypkg output.py
   ```
 
+- 実行方法は[input.py](https://github.com/zjzj-zz/robosys_mypkg/blob/main/scripts/input.py)を起動した端末に、`1 + 1`のように入力します。[calculate.py](https://github.com/zjzj-zz/robosys_mypkg/blob/main/scripts/calculate.py)で計算した結果が[output.py](https://github.com/zjzj-zz/robosys_mypkg/blob/main/scripts/output.py)を起動した端末に`data: 2.0`のように表示されます。
+
 ## 著者
 
 [Hikaru Jitsukawa](https://github.com/zjzj-zz)
