@@ -20,7 +20,7 @@
 
   ```bash
   cd ~/catkin_ws/src
-  git clone https://zjzj-zz/robosys_mypkg.git
+  git clone https://github.com/zjzj-zz/robosys_mypkg.git
   ```
 
 - `catkin_make`を使用して本パッケージをビルドします。
