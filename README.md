@@ -95,7 +95,7 @@ c++とpythonのコードのトピック間通信を行います。
 
 - このlaunchファイルで扱える演算は`+ - * /`です。
 
-##　デモ動画
+## デモ動画
 
 [![](https://img.youtube.com/vi/qLvJ595EBtI/0.jpg)](https://www.youtube.com/watch?v=qLvJ595EBtI)
 
