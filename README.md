@@ -93,6 +93,12 @@ c++とpythonのコードのトピック間通信を行います。
 
 - 実行方法は[input.py](https://github.com/zjzj-zz/robosys_mypkg/blob/main/scripts/input.py)を起動した端末に、`1 + 1`のように入力します。[calculate.py](https://github.com/zjzj-zz/robosys_mypkg/blob/main/scripts/calculate.py)で計算した結果が[output.py](https://github.com/zjzj-zz/robosys_mypkg/blob/main/scripts/output.py)を起動した端末に`data: 2.0`のように表示されます。
 
+- このlaunchファイルで扱える演算は`+ - * /`です。
+
+##　デモ動画
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qLvJ595EBtI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## 著者
 
 [Hikaru Jitsukawa](https://github.com/zjzj-zz)
